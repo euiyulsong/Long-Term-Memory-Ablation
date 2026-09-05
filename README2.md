@@ -33,7 +33,7 @@
 | raw_c6_overlap | 0.280 | 0.220 | 0.320 | 6,268 |
 | session_summary | 0.220 | 0.080 | 0.168 | 3,822 |
 | router_raw_vs_summary | 0.300 | 0.260 | 0.363 | 5,629 |
-| c6_summary_concat | 0.3000 | 0.2400 | 0.3448 | 102,819 |
+| c6_summary_concat | 0.300 | 0.240 | 0.345 | 10,281 |
 | **all** | **0.440** | **0.340** | **0.524** | **18,553** |
 
 [RETRIEVAL EVIDENCE HIT@5]
