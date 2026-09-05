@@ -43,3 +43,12 @@ python3 locomo_c6_summary_concat.py \
   --c6-overlap-stride 3 \
   --model qwen/qwen3.5-35b-a3b \
   --output-dir ./results_locomo_c6_summary_concat
+
+python3 locomo_task_router_final.py \
+  --num-examples 50 \
+  --seed 42 \
+  --top-k 5 \
+  --c6-overlap-stride 3 \
+  --router-model qwen/qwen3.5-35b-a3b \
+  --qa-model qwen/qwen3.5-35b-a3b \
+  --output-dir ./results_locomo_task_router_final
