@@ -1,4 +1,4 @@
-````markdown
+
 # LoCoMo Memory Representation / Routing 실험 결과
 
 ## 1. 실험 설정
@@ -236,7 +236,7 @@ C6 No-overlap Top-5
 C6 Overlap Top-5
 +
 Session Summary Top-5
-````
+
 
 이 구조에서는:
 
