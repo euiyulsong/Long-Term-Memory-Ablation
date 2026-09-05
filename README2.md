@@ -37,16 +37,18 @@
 | c6_summary_concat | 0.300 | 0.240 | 0.345 | 10,281 |
 | **all** | **0.440** | **0.340** | **0.524** | **18,553** |
 
-[RETRIEVAL EVIDENCE HIT@5]
-  c6_overlap       0.8000
-  session_summary  0.7400
-  combined         0.9000
+### RETRIEVAL EVIDENCE HIT@5
+| Method | EM |
+|---|---:|
+| c6_overlap | 0.8000 |
+| session_summary | 0.7400 |
+| combined | 0.9000 |
 
-[ROUTE=0 raw/c6]
-  n=45 EM=0.3111 STRICT=0.2222 F1=0.3502
+| ROUTE | N | EM | STRICT EM | F1 |
+|---|---:|---:|---:|---:|
+| raw/c6 | 45 | 0.3111 | 0.2222 | 0.3502 |
+| summary | 5 | 0.2000 | 0.0000 | 0.0444 |
 
-[ROUTE=1 summary]
-  n=5 EM=0.2000 STRICT=0.0000 F1=0.0444
 ### 핵심 결과
 
 가장 성능이 높은 방법은 명확하게 `self_router_all`이다.
