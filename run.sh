@@ -17,3 +17,12 @@ python3 locomo_chunk_router.py \
   --router-model qwen/qwen3.5-35b-a3b \
   --self-router-model qwen/qwen3.5-35b-a3b \
   --output-dir ./results_locomo_final
+
+python3 locomo_pointwise_selfrouter.py \
+  --num-examples 50 \
+  --seed 42 \
+  --top-k 5 \
+  --max-workers 10 \
+  --c6-overlap-stride 3 \
+  --model qwen/qwen3.5-35b-a3b \
+  --output-dir ./results_locomo_pointwise_selfrouter
