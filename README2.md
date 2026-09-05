@@ -12,7 +12,7 @@
 | `raw_c6_overlap` | 6-turn chunk, overlap 적용 |
 | `session_summary` | LoCoMo에서 제공하는 session-level summary |
 | `router_raw_vs_summary` | raw 방식 중 하나를 고른 뒤, 선택된 raw와 summary 중 하나를 다시 선택 |
-| `self_router_all` | C2 + C6 no-overlap + C6 overlap + summary의 Top-5를 모두 LLM에 넣고 최종 답 생성 |
+| `concat_all` | C2 + C6 no-overlap + C6 overlap + summary의 Top-5를 모두 LLM에 넣고 최종 답 생성 |
 
 평가는 50개 QA에 대해 수행했고, 주요 metric은 다음과 같다.
 
